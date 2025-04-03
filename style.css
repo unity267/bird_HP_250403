@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* common */
+
+* {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-variant: normal;
+}
+
+body {
+  background: url(image/bg.png) repeat;
+  color: #333;
+  font-size: 100%;
+  line-height: 1;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', sans-serif;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* wideslider */
+.wideslider {
+  width: 1000px;
+  margin: 0 auto;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+
+
+/* header */
+
+header {
+
+  background: rgb(255 , 255, 255, .9);
+
+  .header_inner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 8px 0 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  ul {
+    display: flex;
+    gap: 50px;
+    flex: 1;
+  }
+
+  li {
+    list-style: none;
+    font-size: 18px;
+    /* letter-spacing: .1em; */
+  }
+
+  a:hover {
+    color: #888;
+  }
+
+
+}
+
+/* section_news */
+.section_news {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 16px 0 64px;
+
+  .tekikaku {
+    text-align: right;
+    font-size: 12px;
+  }
+
+  .corona {
+    margin-top: 16px;
+  }
+
+  .seihan {
+    margin-top: 16px;
+  }
+}
+
+/* Contents */
+
+.Contents {
+  width: 1000px;
+  margin: 0 auto;
+
+  .Contents_hero{
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  h3{
+    line-height: normal;
+    font-size: 24px;
+  }
+
+  p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+}
+
+
+
+
+/* footer */
+footer {
+  padding: 16px 0;
+  text-align: center;
+  background: url(image/black_bg.png);
+
+  small {
+    color: white;
+    font-size: 12px;
+  }
+}
